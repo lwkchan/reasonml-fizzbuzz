@@ -18,6 +18,13 @@ npm run build
 npm run test
 ```
 
+or, in watch mode...
+
+```
+npm run watch
+npm run watch:test (in second terminal tab)
+```
+
 # Watch
 
 ```

@@ -5,6 +5,7 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "test": "npm run build && jest",
+    "test:watch": "jest --watchAll",
     "watch": "bsb -make-world -w"
   },
   "jest": {
