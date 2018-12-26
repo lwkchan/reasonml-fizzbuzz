@@ -1,0 +1,22 @@
+{
+  "name": "fizzbuzz",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "test": "npm run build && jest",
+    "watch": "bsb -make-world -w"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.6",
+    "bs-platform": "^4.0.7"
+  }
+}
